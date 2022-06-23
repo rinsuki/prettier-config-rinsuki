@@ -1,13 +1,20 @@
 {
-  "name": "@rinsuki/prettier-config",
-  "version": "1.2.1",
-  "main": "index.js",
-  "author": "rinsuki",
-  "license": "MIT",
-  "publishConfig": {
-    "access": "public"
-  },
-  "peerDependencies": {
-    "prettier": ">=2.0.0"
-  }
+    "name": "@rinsuki/prettier-config",
+    "version": "1.2.1",
+    "main": "index.js",
+    "author": "rinsuki",
+    "license": "MIT",
+    "scripts": {
+        "fix": "prettier --write ."
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "peerDependencies": {
+        "prettier": ">=2.0.0"
+    },
+    "devDependencies": {
+        "prettier": "^2.7.1"
+    },
+    "prettier": "./"
 }
