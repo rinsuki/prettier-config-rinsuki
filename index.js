@@ -12,7 +12,7 @@ module.exports = {
     endOfLine: "lf",
     overrides: [
         {
-            files: ["*.yml", "*.yaml"],
+            files: ["*.yml", "*.yaml", "*.md"],
             options: {
                 tabWidth: 2,
             },
